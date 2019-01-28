@@ -1,6 +1,6 @@
 version: '3.7'
 services:
-    mask_rcnn:
+    da_siam_rpn:
       image: "mmlu/da_siam_rpn:v0.1"
       container_name: da_siam_rpn
       ports:
