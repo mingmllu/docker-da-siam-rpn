@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+    mask_rcnn:
+      image: "mmlu/da_siam_rpn:v0.1"
+      container_name: da_siam_rpn
+      ports:
+       - "5567:5567"
+      environment:
+       - IMAGE_SOURCE=demo.mp4
+       - SKT_PORT=5567
+
+       
+
